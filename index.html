@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>covid data</title>
+
+    
+</head>
+<body>
+<script src="script.js"></script>
+
+<section id="header">
+  <div class="container-fluid">
+     <nav class="navbar navbar-expand-lg navbar-dark">
+       <div class="container">
+           <a href="#" class="navbar-brand">COVIDdata</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item active">
+                     <a href="#" class="nav-link">Home</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+  </div>
+</section>
+
+<section class="main">
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+             <h2>Covid-19 Analysis and Prediction</h2>
+             <p>The coronavirus COVID-19 is affecting 223 countries and territories.<br>
+                The day is reset after midnight GMT+0. The list of countries and their<br> regional classification
+                is based on the United Nations Geoscheme.</p>
+             <div class="box">
+                 <form>
+                     <input type="text" name="" placeholder="Enter country name..." id="textbox">
+                     <button type="button" id="getans" onClick="foo()">Submit</button>
+                 </form>
+
+             </div>  
+          </div>
+        </div>
+    </div>
+</section>
+
+<section >
+  <div class="box">  
+    <div class="container">
+      <div class="row">
+           <div class="col-sm-4 col-md-4 col-lg-4">
+             <div class="box-part text-center">
+               <div class="icon">01</div>
+               <div class="content">
+                 <h3>Country</h3>
+                 <p id="ans1"></p>
+                 <a href="#">Read More</a>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="box-part text-center">
+               <div class="icon">02</div>
+               <div class="content">
+                 <h3>Confirmed cases</h3>
+                 <p id="ans2"></p>
+                 <a href="#">Read More</a>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="box-part text-center">
+               <div class="icon">03</div>
+               <div class="content">
+                  <h3>Active cases</h3>
+                  <p id="ans3"></p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="box-part text-center">
+              <div class="icon">04</div>
+              <div class="content">
+                 <h3>Recovered</h3>
+                 <p id="ans4"></p>
+                 <a href="#">Read More</a>
+              </div>
+            </div>
+           </div>
+
+           <div class="col-sm-4 col-md-4 col-lg-4">
+             <div class="box-part text-center">
+              <div class="icon">05</div>
+              <div class="content">
+                <h3>Deaths</h3>
+                <p id="ans5"></p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 30px 0;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+.nav-item{
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #dcdde1;
+    color:#262626;
+}
+.main{
+    position: relative;
+    background-image: linear-gradient(rgba(2,2,3,2),rgba(18, 19, 31, 0.5)),url(img.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+    text-align: center;
+}
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    font-weight: bold;
+}
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: #dcdde1;
+    text-align: center;
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    box-sizing: border-box;
+    transition: .5s;
+    font-weight: 500;
+}
+input[type="text"]{
+background: #fff;
+width: 300px;
+height: 47px;
+border: none;
+outline: none;
+padding: 0 25px;
+border-radius: 25px 0 0 25px;
+}
+#getans{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height:47px;
+    font-weight: 500;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:#fff;
+    left: -5px;
+    top: -1px;
+}
+#getans:hover{
+    background: rgb(39, 128, 39);
+}
+
+.box-part{
+    width: 300px;
+    height: 270px;
+    background-color: rgb(253, 253, 253);
+    margin: 40px 0px;
+    padding: 40px ;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: rgb(83, 80, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 1s;
+}
+.box-part:hover .icon{
+    box-shadow: 0 0 0 400px rgb(170, 193, 235);
+}
+.box-part .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.box-part .content h3{
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 0;
+}
+.box-part .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.box-part .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-family: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
